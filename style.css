@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    position: relative;
+}
+
+#logo {
+    width: 300px;
+    position: relative;
+    top: 20vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+a {
+    cursor: pointer;
+    margin: 0px 5px;
+    color: #212121;
+    font-size: 14px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+#profile {
+    width: 2vw;
+}
+
+#search {
+    max-width: 90vw;
+    width: 600px;
+    height: 5vh;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    position: relative;
+    left: 50%;
+    top: 23%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    background-color: white;
+}
+
+#search:hover {
+    filter: drop-shadow(2px 3px 3px rgba(138, 138, 138, 0.349));
+}
+
+#glass {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2%;
+    height: 50%;
+}
+
+#mic {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2%;
+    height: 50%;
+    cursor: pointer;
+}
+
+input {
+    width: 85%;
+    transform: translateX(-50%);
+    height: 100%;
+    position: relative;
+    left: 50%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.buttons {
+    position: relative;
+    top: 26vh;
+    text-align: center;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: none;
+    margin: 5px;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.two {
+    width: 150px;
+}
+
+button:hover {
+    border-color: lightgray;
+}
+
+button:active {
+    border-color: rgb(46, 95, 255);
+}
+
+.right {
+    float: right;
+}
+
+#signin {
+    background-color: #1a73e8;
+    color: white;
+    float: right;
+    width: 100px;
+    outline: none;
+    border: none;
+    transform: translateY(-40%);
+}
+
+#signin:hover {
+    background-color: #3587f3;
+}
+
+#signin:active {
+    background-color: #569cf7;
+}
+
+#more {
+    float: right;
+    margin: 0 1%;
+    height: 40px;
+    padding: 7px;
+    border-radius: 40px;
+    transform: translateY(-10px);
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#more:hover {
+    background-color: rgba(199, 199, 199, 0.5);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+
+footer > a {
+    color: #70757a;
+    margin: 0 15px;
+}
+
+.left {
+    float: left;
+}
